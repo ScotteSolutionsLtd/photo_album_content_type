@@ -4,6 +4,7 @@ core = 7.x
 package = Features
 version = 7.x-1.0
 project = photo_album_content_type
+stylesheets[all][] = css/photo_album_content_type.css
 dependencies[] = colorbox
 dependencies[] = features
 dependencies[] = filefield_sources
