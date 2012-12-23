@@ -9,14 +9,15 @@
 .node-photo-album .field-name-field-albumimages {
   text-align:center;
   clear:both;
+  display:block;
 }
 #topbut {
 }
-.field-name-field-return-to-top-link {
+.field-name-field-return-to-top-link:not(.node-photo_album-form .field-name-field-return-to-top-link) {
   float:right;
   margin-right:-50px;
 }
-.field-name-field-return-to-top-link a:link{
+.field-name-field-return-to-top-link:not(.node-photo_album-form .field-name-field-return-to-top-link) a:link{
   border:1px solid #000;
   border-radius:5px;
   padding:15px;
