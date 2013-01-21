@@ -1,12 +1,5 @@
 <?php
-/**
- * @file
- * photo_album_content_type.features.inc
- */
 
-/**
- * Implements hook_image_default_styles().
- */
 function photo_album_content_type_image_default_styles() {
   $styles = array();
 

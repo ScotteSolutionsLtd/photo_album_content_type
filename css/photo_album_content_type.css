@@ -1,5 +1,6 @@
 .node-type-photo-album h1#page-title {
   margin-left:50px;
+  margin-right:1px;
 }
 .node-type-photo-album .node-photo-album {
   width: 90%;
